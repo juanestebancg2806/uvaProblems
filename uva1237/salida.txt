@@ -1,0 +1,31 @@
+[('Balkania', 10, 55), ('Neobus', 30, 95), ('UTB', 70, 125), ('FAP', 100, 164), ('IAMA', 139, 191), ('Bajaj', 162, 238), ('RollsRoyce', 166, 187), ('DINA', 213, 284), ('Bangladesh', 259, 309), ('Thaco', 284, 359), ('Hudson', 314, 413), ('APTS', 334, 339), ('Yello', 388, 463), ('Defunct', 438, 523), ('Defunct', 493, 563), ('WorldAuto', 498, 518), ('Mitsubishi', 538, 635), ('Automeccanica', 610, 686), ('Mini', 661, 730), ('Canada', 705, 784), ('SamAvto', 742, 792), ('Foton', 759, 767), ('LaFayette', 767, 846), ('Durant', 821, 889), ('Thomas', 864, 947)]
+[('Balkania', 10, 55), ('Neobus', 30, 95), ('UTB', 70, 125), ('FAP', 100, 164), ('IAMA', 139, 191), ('Bajaj', 162, 238), ('RollsRoyce', 166, 187), ('DINA', 213, 284), ('Bangladesh', 259, 309), ('Thaco', 284, 359), ('Hudson', 314, 413), ('APTS', 334, 339), ('Yello', 388, 463), ('Defunct', 438, 523), ('Defunct', 493, 563), ('WorldAuto', 498, 518), ('Mitsubishi', 538, 635), ('Automeccanica', 610, 686), ('Mini', 661, 730), ('Canada', 705, 784), ('SamAvto', 742, 792), ('Foton', 759, 767), ('LaFayette', 767, 846), ('Durant', 821, 889), ('Thomas', 864, 947)]
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED
+UNDETERMINED

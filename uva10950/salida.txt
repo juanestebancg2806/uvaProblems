@@ -1,0 +1,6 @@
+Case #1
+a
+
+Case #2
+ba
+bcc
