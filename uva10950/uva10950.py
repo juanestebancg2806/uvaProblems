@@ -2,44 +2,41 @@ from sys import stdin
 import sys
 sys.setrecursionlimit(1000000000)
 
-"""
-wa
-"""
-
-
 
 def solve(i,_s):
-    global s,ans,codes
-    if i == len(s) and len(ans) < 100:
-        ans.add(str(_s))
+    global codes,s,letters,cnt
+    if i == len(s) and cnt < 100:
+        print(_s)
+        cnt += 1
     else:
-        scpy = ''
-        while i < len(s) and len(ans) < 100:
-            scpy += s[i]
-            if codes.get(int(scpy)) != None:
-                solve(i+1,_s+codes[int(scpy)])
-            i += 1
+        for k in range(26):
+            _chr = chr(k+97)
+            if _chr in letters:
+                ok,scpy,j = True,'',i
+                while j < len(s) and ok and cnt < 100:
+                    scpy += s[j]
+                    if codes.get(int(scpy)) != None and codes[int(scpy)] == _chr:
+                        solve(j+1,_s+codes[int(scpy)])
+                    j,ok = j+1,int(scpy) <= 99
+
 
 
 def main():
-    global ans,codes,s
+    global codes,s,letters,cnt
     N,TC = int(stdin.readline().strip()),1
-    while N != 0:
-        ans,codes = set(),{}
+    while N :
+        codes,letters = {},set()
         for _ in range(N):
             l,n = map(str,stdin.readline().strip().split())
             codes[int(n)] = l
+            letters.add(l)
         s = stdin.readline().strip()    
-        solve(0,'')
-        ans = list(ans)
-        ans.sort()
+        cnt = 0
         print("Case #{0}".format(TC))
-        for i in range(len(ans)):
-            print(ans[i],end = "" if i+1 == len(ans) else "\n")
+        solve(0,'')
         TC += 1
         N = int(stdin.readline().strip())
-        if N != 0:
-            print("\n")
+        print("")
         
     
 main()
